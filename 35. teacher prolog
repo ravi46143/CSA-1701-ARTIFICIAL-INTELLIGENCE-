@@ -1,0 +1,7 @@
+teacher(john).
+teacher(susan).
+teacher(mike).
+
+subject(math, m101).
+subject(english, e202).
+subject(physics, p303). 
