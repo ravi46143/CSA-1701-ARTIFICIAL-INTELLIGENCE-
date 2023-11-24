@@ -1,0 +1,14 @@
+diet_recommendation(heart_disease, low_fat).
+diet_recommendation(diabetes, low_sugar).
+diet_recommendation(hypertension, low_salt).
+diet_recommendation(high_cholesterol, low_cholesterol).
+
+food_attribute(apple, low_fat).
+food_attribute(apple, low_sugar).
+food_attribute(apple, low_salt).
+food_attribute(fish, low_fat).
+food_attribute(fish, low_salt).
+food_attribute(vegetables, low_fat).
+food_attribute(vegetables, low_sugar).
+food_attribute(vegetables, low_salt).
+
