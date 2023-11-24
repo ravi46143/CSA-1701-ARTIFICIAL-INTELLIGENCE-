@@ -1,0 +1,9 @@
+sum(0, 0).  % Base case: sum of integers from 1 to 0 is 0
+sum(N, Result) :-
+    N > 0,
+    N1 is N - 1,
+    sum(N1, SubResult),
+    Result is N + SubResult.
+or
+sum(N,Sum):-
+    Sum is (N+1)*N/2.
